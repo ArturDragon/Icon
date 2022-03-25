@@ -38,6 +38,7 @@ ul li:before{
     position: absolute;
     inset: 30px;
     box-shadow: 0 0 0 10px var(--crl), 0 0 0 20px var(--bg), 0 0 0 22px var(--crl);
+    border-radius: 50px;
     transition: 0.5s;
 }
 ul li:hover:before{
@@ -49,6 +50,7 @@ ul li:after{
     inset: 0;
     background: var(--bg);
     transform: rotate(45deg);
+    border-radius: 50px;
 }
 ul li a{
     position: relative;
@@ -61,5 +63,5 @@ ul li a{
 ul li:hover a{
     font-size: 3em;
     filter: drop-shadow(0 0 20px var(--crl)) drop-shadow(0 0 40px var(--crl)) drop-shadow(0 0 60px var(--crl))drop-shadow(0 0 80px var(--crl));
-
+    border-radius: 50px;
 }
